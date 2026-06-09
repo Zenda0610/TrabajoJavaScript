@@ -1,0 +1,139 @@
+/* -------------------------
+   ESTILOS GENERALES DEL BODY
+-------------------------- */
+body {
+  font-family: 'Segoe UI', sans-serif; /* Fuente principal del sitio */
+  background: #f0f2f5; /* Color de fondo gris claro */
+  padding: 40px; /* Espacio interno alrededor del contenido */
+  margin: 0; /* Elimina margen por defecto del navegador */
+}
+
+
+/* -------------------------
+   CONTENEDOR PRINCIPAL
+-------------------------- */
+#app {
+  max-width: 600px; /* Ancho máximo del contenedor */
+  margin: auto; /* Centra horizontalmente */
+  background: #ffffff; /* Fondo blanco */
+  padding: 25px; /* Espacio interno */
+  border-radius: 12px; /* Bordes redondeados */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+
+/* -------------------------
+   TÍTULO
+-------------------------- */
+h1 {
+  text-align: center; /* Centrar texto */
+  color: #333; /* Color gris oscuro */
+}
+
+
+/* -------------------------
+   CONTENEDOR DEL FORMULARIO
+-------------------------- */
+.formulario {
+  display: flex; /* Activa Flexbox */
+  gap: 10px; /* Espacio entre elementos */
+  margin-bottom: 15px; /* Separación inferior */
+}
+
+/* -------------------------
+   BOTÓN AGREGAR
+-------------------------- */
+#btn-incrementar {
+  padding: 10px 16px; /* Espacio interno */
+  background-color: #4caf50; /* Verde */
+  border: none; /* Sin borde */
+  color: white; /* Texto blanco */
+  border-radius: 6px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor a mano */
+  transition: background 0.3s; /* Animación suave al cambiar fondo */
+}
+
+
+/* Efecto hover (cuando el mouse pasa encima) */
+#btn-incrementar:hover {
+  background-color: #45a045; /* Verde más oscuro */
+}
+
+
+
+#btn-decrementar {
+  padding: 10px 16px; /* Espacio interno */
+  background-color: #ff5a5a; /* Rojo */
+  border: none; /* Sin borde */
+  color: white; /* Texto blanco */
+  border-radius: 6px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor a mano */
+  transition: background 0.3s; /* Animación suave al cambiar fondo */
+}
+
+
+/* Efecto hover (cuando el mouse pasa encima) */
+#btn-decrementar:hover {
+  background-color: #ff0000; /* Rojo más oscuro */
+}
+
+
+
+#btn-resetear {
+  padding: 10px 16px; /* Espacio interno */
+  background-color: #d3d3d3; /* Gris */
+  border: none; /* Sin borde */
+  color: white; /* Texto blanco */
+  border-radius: 6px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor a mano */
+  transition: background 0.3s; /* Animación suave al cambiar fondo */
+}
+
+
+/* Efecto hover (cuando el mouse pasa encima) */
+#btn-resetear:hover {
+  background-color: #8b8b8b; /* Verde más oscuro */
+}
+
+/* -------------------------
+  NAV (Botones para redirigir)
+-------------------------- */
+
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    margin: 10px 0;
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.nav-completo{
+  display: flex; /* Flexbox */
+  gap: 8px; /* Espacio entre botones */
+  padding: 6px 10px; /* Espacio interno */
+  border: none; /* Sin borde */
+  border-radius: 4px; /* Bordes redondeados */
+  cursor: pointer; /* Cursor tipo mano */
+  font-size: 0.9em; /* Tamaño pequeño */
+  padding: 10px 16px; /* Espacio interno */
+  background-color: #3795bb; /* Verde */
+  border: none; /* Sin borde */
+  color: white; /* Texto blanco */
+  border-radius: 6px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor a mano */
+  transition: background 0.3s; /* Animación suave al cambiar fondo */
+}
+
+.nav-completo:hover{
+    transform: scale(1.05);
+}
+
+.contador {
+  font-size: 2em; /* Tamaño grande para el contador */
+  color: #3498db; /* Azul */
+  text-align: center; /* Centrar el número */
+  margin: 20px 0; /* Espacio vertical */
+}

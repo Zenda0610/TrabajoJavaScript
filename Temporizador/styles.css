@@ -1,0 +1,75 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f2f5;
+  padding: 40px;
+  margin: 0;
+}
+
+#app {
+  max-width: 400px;
+  margin: auto;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: white;
+  font-size: 1em;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+#contador {
+  margin-top: 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Estilo de alerta cuando termina */
+.alerta {
+  color: #e74c3c;
+  background: #ffe6e6;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.nav-completo{
+  display: flex; /* Flexbox */
+  gap: 8px; /* Espacio entre botones */
+  padding: 6px 10px; /* Espacio interno */
+  border: none; /* Sin borde */
+  border-radius: 4px; /* Bordes redondeados */
+  cursor: pointer; /* Cursor tipo mano */
+  font-size: 0.9em; /* Tamaño pequeño */
+  padding: 10px 16px; /* Espacio interno */
+  background-color: #3795bb; /* Verde */
+  border: none; /* Sin borde */
+  color: white; /* Texto blanco */
+  border-radius: 6px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor a mano */
+  transition: background 0.3s; /* Animación suave al cambiar fondo */
+  margin-top: 20px; /* Espacio superior */
+}
+
+.nav-completo:hover{
+    transform: scale(1.05);
+}

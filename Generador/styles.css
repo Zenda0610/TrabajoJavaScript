@@ -1,0 +1,82 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f2f5;
+  padding: 40px;
+  margin: 0;
+}
+
+#app {
+  max-width: 800px;
+  margin: auto;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Contenedor de usuarios */
+#contenedor-usuarios {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+/* Tarjeta de usuario */
+.usuario-card {
+  background: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.usuario-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.usuario-card h2 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #3498db;
+}
+
+.usuario-card h3 {
+  margin: 5px 0;
+  font-size: 1em;
+  color: #555;
+}
+
+.usuario-card p {
+  font-size: 0.9em;
+  color: #444;
+}
+
+
+.nav-completo{
+  display: flex; /* Flexbox */
+  gap: 8px; /* Espacio entre botones */
+  padding: 6px 10px; /* Espacio interno */
+  border: none; /* Sin borde */
+  border-radius: 4px; /* Bordes redondeados */
+  cursor: pointer; /* Cursor tipo mano */
+  font-size: 0.9em; /* Tamaño pequeño */
+  padding: 10px 16px; /* Espacio interno */
+  background-color: #3795bb; /* Verde */
+  border: none; /* Sin borde */
+  color: white; /* Texto blanco */
+  border-radius: 6px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor a mano */
+  transition: background 0.3s; /* Animación suave al cambiar fondo */
+  margin-top: 20px; /* Espacio superior */
+}
+
+.nav-completo:hover{
+    transform: scale(1.05);
+}

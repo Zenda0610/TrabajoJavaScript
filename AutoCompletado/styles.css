@@ -1,0 +1,71 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f2f5;
+  padding: 40px;
+  margin: 0;
+}
+
+#app {
+  max-width: 400px;
+  margin: auto;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+#buscador {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+#sugerencias {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+#sugerencias li {
+  padding: 8px;
+  cursor: pointer;
+  background: #f7f7f7;
+  border-bottom: 1px solid #ddd;
+}
+
+#sugerencias li:hover {
+  background: #e6f7ff;
+}
+
+.nav-completo{
+  display: flex; /* Flexbox */
+  gap: 8px; /* Espacio entre botones */
+  padding: 6px 10px; /* Espacio interno */
+  border: none; /* Sin borde */
+  border-radius: 4px; /* Bordes redondeados */
+  cursor: pointer; /* Cursor tipo mano */
+  font-size: 0.9em; /* Tamaño pequeño */
+  padding: 10px 16px; /* Espacio interno */
+  background-color: #3795bb; /* Verde */
+  border: none; /* Sin borde */
+  color: white; /* Texto blanco */
+  border-radius: 6px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor a mano */
+  transition: background 0.3s; /* Animación suave al cambiar fondo */
+  margin-top: 20px; /* Espacio superior */
+}
+
+.nav-completo:hover{
+    transform: scale(1.05);
+}

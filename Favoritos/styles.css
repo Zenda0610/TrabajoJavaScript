@@ -1,0 +1,78 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f2f5;
+  padding: 40px;
+  margin: 0;
+}
+
+#app {
+  max-width: 600px;
+  margin: auto;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+#lista-productos {
+  list-style: none;
+  padding: 0;
+}
+
+#lista-productos li {
+  background: #f7f7f7;
+  border: 1px solid #ddd;
+  padding: 12px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Botón */
+.btn-fav {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: white;
+  transition: background 0.3s;
+}
+
+.btn-fav:hover {
+  background-color: #2980b9;
+}
+
+/* Estilo para favoritos */
+.favorito {
+  background: #fff3cd; /* amarillo suave */
+  border-color: #ffecb5;
+}
+
+.nav-completo{
+  display: flex; /* Flexbox */
+  gap: 8px; /* Espacio entre botones */
+  padding: 6px 10px; /* Espacio interno */
+  border: none; /* Sin borde */
+  border-radius: 4px; /* Bordes redondeados */
+  cursor: pointer; /* Cursor tipo mano */
+  font-size: 0.9em; /* Tamaño pequeño */
+  padding: 10px 16px; /* Espacio interno */
+  background-color: #3795bb; /* Verde */
+  border: none; /* Sin borde */
+  color: white; /* Texto blanco */
+  border-radius: 6px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor a mano */
+  transition: background 0.3s; /* Animación suave al cambiar fondo */
+}
+
+.nav-completo:hover{
+    transform: scale(1.05);
+}
